@@ -1,7 +1,7 @@
 import React from 'react';
 import {useQuery, useMutation} from '@apollo/client';
 import {useNavigate, useParams} from "react-router-dom";
-// import the NoteForm component
+// Импортируем компонент NoteForm
 import NoteForm from '../Components/NoteForm';
 //gql
 import {GET_NOTE, GET_ME} from '../qql/query';

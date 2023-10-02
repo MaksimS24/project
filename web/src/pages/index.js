@@ -26,7 +26,7 @@ const Pages = () => {
         <div>
             <Layout>
                 <Routes>
-                    <Route exact path="project/" element={<Home/>}/>
+                    <Route exact path="/" element={<Home/>}/>
                     <Route exact element={<PrivateRoute/>}>
                         <Route path="/myNotes" element={<MyNotes/>}/>
                         <Route path="/favorites" element={<Favorites/>}/>
